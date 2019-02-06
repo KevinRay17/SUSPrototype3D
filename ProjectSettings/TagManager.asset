@@ -8,7 +8,6 @@ TagManager:
   - Wood
   - Metal
   - Fire
-  - Water
   layers:
   - Default
   - TransparentFX

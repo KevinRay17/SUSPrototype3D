@@ -33,5 +33,10 @@ public class Material : MonoBehaviour
         {
             heldMaterialRenderer.material = thisRenderer.material;
         }
+
+        if (Input.GetMouseButtonDown(1))
+        {
+            
+        }
     }
 }
