@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/DescriptorTest.unity
+- path: Assets/Scenes/MaterialTest.unity
   isLoaded: 1
   isActive: 1
