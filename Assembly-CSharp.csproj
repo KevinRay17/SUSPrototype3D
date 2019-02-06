@@ -57,7 +57,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scenes\Charlie's Scripts\GateOpen.cs" />
+    <Compile Include="Assets\Charlie's Scripts\GateOpen.cs" />
     <Compile Include="Assets\Scenes\Scripts\Description.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/charl/Documents/SUSPrototype3D/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
