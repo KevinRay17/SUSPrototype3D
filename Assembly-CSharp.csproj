@@ -55,7 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Description.cs" />
-    <Compile Include="Assets\Scripts\Material.cs" />
+    <Compile Include="Assets\Scripts\MaterialManager.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Connor/Desktop/Projects/Unity Projects (Class)/TeamStudio Git Prototype 3D/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
