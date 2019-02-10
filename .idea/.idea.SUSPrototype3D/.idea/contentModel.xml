@@ -6,7 +6,14 @@
     <e p="C:\Users\Kevin Ray\Desktop\Unity Folders\SUSPrototype3D" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Scenes" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Description.cs" t="Include" />
+            <e p="MaterialProperties.cs" t="Include" />
+          </e>
+        </e>
         <e p="Standard Assets" t="Include">
           <e p="Characters" t="Include">
             <e p="FirstPersonCharacter" t="Include">
