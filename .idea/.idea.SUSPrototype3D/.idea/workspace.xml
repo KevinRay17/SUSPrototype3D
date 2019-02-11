@@ -12,7 +12,7 @@
     <session id="2029742378">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -72,7 +72,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="285" />
     <option name="y" value="135" />
     <option name="width" value="1735" />
@@ -138,12 +138,12 @@
       <updated>1549480273197</updated>
       <workItem from="1549480287506" duration="303000" />
       <workItem from="1549480809702" duration="1232000" />
-      <workItem from="1549755444645" duration="2038000" />
+      <workItem from="1549755444645" duration="2230000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2109000" />
+    <option name="totallyTimeSpent" value="2301000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
