@@ -23,20 +23,18 @@ public class MaterialManager : MonoBehaviour
         thisRenderer = GetComponent<MeshRenderer>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     void OnMouseOver()
     {
+        // Deals with taking materials from an object, makes sure that the object doesn't
+        // have a blank material
         if (Input.GetMouseButtonDown(0))
         {
             if (tag != "Blank")
             {
+                // Sets heldMaterial to the material of the gameObject
                 heldMaterialRenderer.material = thisRenderer.material;
 
+                // Sets the gameObject's material to the default material
                 thisRenderer.material = defaultMat;
 
                 // Sets heldMaterial tag to the current object's tag
@@ -49,8 +47,10 @@ public class MaterialManager : MonoBehaviour
 
         if (Input.GetMouseButtonDown(1))
         {
+            // Opposite of GetMouseButtonDown(0) sets the gameObject's material to the heldMaterial's material
             thisRenderer.material = heldMaterialRenderer.material;
             
+            // Sets heldMaterial to the default material
             heldMaterialRenderer.material = defaultMat;
 
             this.tag = heldMaterial.tag;
