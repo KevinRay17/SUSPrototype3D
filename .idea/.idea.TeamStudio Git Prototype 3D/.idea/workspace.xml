@@ -12,20 +12,20 @@
     <session id="1956627084">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.6" value="4" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.6" value="5" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="3248" />
+          <entry key="cs" value="3431" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="3248" />
+          <entry key="C#" value="3431" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -42,21 +42,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MaterialManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="662">
-              <caret line="39" column="68" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
+            <state relative-caret-position="212">
+              <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
               <folding>
-                <marker date="1549757062555" expanded="false" signature="6:78" ph="..." />
-                <marker date="1549757062555" expanded="true" signature="79:112" ph="///  ... " />
-                <marker date="1549757062555" expanded="true" signature="157:1797" ph="{...}" />
-                <marker date="1549757062555" expanded="true" signature="383:589" ph="{...}" />
-                <marker date="1549757062555" expanded="true" signature="613:1795" ph="{...}" />
-                <marker date="1549757062555" expanded="true" signature="628:742" ph="/* Deals with taking materials from an object, makes sure that the object doesn't ... */" />
-                <marker date="1549757062555" expanded="true" signature="783:1340" ph="{...}" />
-                <marker date="1549757062555" expanded="true" signature="825:1330" ph="{...}" />
-                <marker date="1549757062555" expanded="true" signature="1382:1789" ph="{...}" />
+                <marker date="1549858455650" expanded="false" signature="6:78" ph="..." />
+                <marker date="1549858455650" expanded="true" signature="79:112" ph="///  ... " />
+                <marker date="1549858455650" expanded="true" signature="157:2138" ph="{...}" />
+                <marker date="1549858455650" expanded="true" signature="413:619" ph="{...}" />
+                <marker date="1549858455650" expanded="true" signature="638:785" ph="{...}" />
+                <marker date="1549858455650" expanded="true" signature="653:779" ph="/* if (Input.GetKeyDown(KeyCode.Q)) ... */" />
+                <marker date="1549858455650" expanded="true" signature="813:2136" ph="{...}" />
+                <marker date="1549858455650" expanded="true" signature="828:942" ph="/* Deals with taking materials from an object, makes sure that the object doesn't ... */" />
+                <marker date="1549858455650" expanded="true" signature="983:1681" ph="{...}" />
+                <marker date="1549858455650" expanded="true" signature="1025:1671" ph="{...}" />
+                <marker date="1549858455650" expanded="true" signature="1723:2130" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -77,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/AdjustShader.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="504">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <marker date="1549843221344" expanded="true" signature="6:100" ph="..." />
                 <marker date="1549843221344" expanded="true" signature="143:674" ph="{...}" />
@@ -108,9 +110,9 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/Scripts/Description.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Scripts/Material.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Material.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MaterialManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChangeScene.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AdjustShader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MaterialManager.cs" />
       </list>
     </option>
   </component>
@@ -121,8 +123,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="108" />
-    <option name="y" value="-27" />
+    <option name="x" value="107" />
+    <option name="y" value="-28" />
     <option name="width" value="980" />
     <option name="height" value="1030" />
   </component>
@@ -134,10 +136,10 @@
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,12 +189,13 @@
       <workItem from="1549480754959" duration="7812000" />
       <workItem from="1549571560343" duration="1989000" />
       <workItem from="1549755776425" duration="2518000" />
-      <workItem from="1549841500202" duration="1708000" />
+      <workItem from="1549841500202" duration="2306000" />
+      <workItem from="1549858050878" duration="406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14036000" />
+    <option name="totallyTimeSpent" value="15040000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -207,7 +210,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1295302" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13087249" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -255,24 +258,6 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scenes/Scripts/Description.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scenes/Scripts/Material.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Material.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MaterialManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="39" column="68" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
-          <folding>
-            <marker date="1549757062555" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549757062555" expanded="true" signature="79:112" ph="///  ... " />
-            <marker date="1549757062555" expanded="true" signature="157:1797" ph="{...}" />
-            <marker date="1549757062555" expanded="true" signature="383:589" ph="{...}" />
-            <marker date="1549757062555" expanded="true" signature="613:1795" ph="{...}" />
-            <marker date="1549757062555" expanded="true" signature="628:742" ph="/* Deals with taking materials from an object, makes sure that the object doesn't ... */" />
-            <marker date="1549757062555" expanded="true" signature="783:1340" ph="{...}" />
-            <marker date="1549757062555" expanded="true" signature="825:1330" ph="{...}" />
-            <marker date="1549757062555" expanded="true" signature="1382:1789" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChangeScene.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -289,12 +274,32 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/AdjustShader.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <marker date="1549843221344" expanded="true" signature="6:100" ph="..." />
             <marker date="1549843221344" expanded="true" signature="143:674" ph="{...}" />
             <marker date="1549843221344" expanded="true" signature="281:302" ph="{...}" />
             <marker date="1549843221344" expanded="true" signature="360:672" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MaterialManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+          <folding>
+            <marker date="1549858455650" expanded="false" signature="6:78" ph="..." />
+            <marker date="1549858455650" expanded="true" signature="79:112" ph="///  ... " />
+            <marker date="1549858455650" expanded="true" signature="157:2138" ph="{...}" />
+            <marker date="1549858455650" expanded="true" signature="413:619" ph="{...}" />
+            <marker date="1549858455650" expanded="true" signature="638:785" ph="{...}" />
+            <marker date="1549858455650" expanded="true" signature="653:779" ph="/* if (Input.GetKeyDown(KeyCode.Q)) ... */" />
+            <marker date="1549858455650" expanded="true" signature="813:2136" ph="{...}" />
+            <marker date="1549858455650" expanded="true" signature="828:942" ph="/* Deals with taking materials from an object, makes sure that the object doesn't ... */" />
+            <marker date="1549858455650" expanded="true" signature="983:1681" ph="{...}" />
+            <marker date="1549858455650" expanded="true" signature="1025:1671" ph="{...}" />
+            <marker date="1549858455650" expanded="true" signature="1723:2130" ph="{...}" />
           </folding>
         </state>
       </provider>

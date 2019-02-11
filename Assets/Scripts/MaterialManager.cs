@@ -10,6 +10,8 @@ public class MaterialManager : MonoBehaviour
 
     public Material defaultMat;
 
+    private Material oldMat;
+
     private Renderer heldMaterialRenderer;
 
     private Renderer thisRenderer;
@@ -23,6 +25,16 @@ public class MaterialManager : MonoBehaviour
         thisRenderer = GetComponent<MeshRenderer>();
     }
 
+    void Update()
+    {
+        /*
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            heldMaterialRenderer.material = oldMat;
+        }
+        */
+    }
+    
     void OnMouseOver()
     {
         // Deals with taking materials from an object, makes sure that the object doesn't
@@ -34,9 +46,12 @@ public class MaterialManager : MonoBehaviour
                 // Sets heldMaterial to the material of the gameObject
                 heldMaterialRenderer.material = thisRenderer.material;
 
+                // GameObject's material is stored in oldMat
+                oldMat = thisRenderer.material;
+                
                 // Sets the gameObject's material to the default material
                 thisRenderer.material = defaultMat;
-
+               
                 // Sets heldMaterial tag to the current object's tag
                 heldMaterial.tag = this.tag;
 
